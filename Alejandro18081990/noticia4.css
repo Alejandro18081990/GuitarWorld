@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #eee;
+    padding: 10px;
+    background-color: black;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url(./imagenes/wood\ 1.jpg);
+    text-align: justify;
+    font-size: 1.2em;
+}
+
+div,iframe{
+    min-width: 500px;
+}
+
+#logo1 {
+    height: 70px;
+    position: relative;
+    left: 1em;
+}
+
+.logo img {
+    height: 50px;
+    border: solid white;
+}
+
+.noticias-1 {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+nav li {
+    margin-right: 20px;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    
+}
+
+nav a:hover {
+    color: #666;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+section {
+    width: 45%;
+    margin-bottom: 20px;
+}
+
+.img-bm {
+    width: 223%;
+
+}
+
+section h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#menu {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 1.1em;
+}
+
+.video-queen {
+    position: absolute;
+    right: 5em;
+
+}
+
+.cancion-queen {
+    position: absolute;
+    left: 37.1em;
+    top: 48em;
+}
+
+#brian_freddie{
+    width: 50%;
+    height: 50%;
+    border-radius: 1em;
+    position: relative;
+    top: 60em;
+}
+

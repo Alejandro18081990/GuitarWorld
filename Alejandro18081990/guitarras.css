@@ -1,0 +1,107 @@
+    @charset "UTF-8";
+
+    header {
+        background-color: black;
+        padding: 10px;
+        
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    body {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-align: justify;
+    }
+
+    /*Modificaciones de bloques completos por guitarra*/
+    .guitarra-vai {
+        float: left;
+        padding-left: 2em;
+    }
+
+    .guitarra-hendrix {
+        float: left;
+    }
+
+    .guitarra-petrucci {
+        position: relative;
+        left: 10em;
+    }
+
+    .guitarra-bm {
+        position: relative;
+        left: 10em;
+    }
+
+    /*Modificaciones aplicadas a las fotos de cada guitarra*/
+    .guitarra-petrucci img {
+        width: 13.13%;
+        position: relative;
+        left: 15em;
+    }
+
+    .guitarra-bm img {
+        width: 41.5%;
+
+    }
+
+    /*Modificaciones aplicadas a los videos de cada guitarra*/
+    #video_majesty {
+        padding-top: 1em;
+        list-style-type: none;
+    }
+
+    #video_pia {
+        padding-top: 2em;
+        position: relative;
+        right: 1em;
+        list-style-type: none;
+    }
+
+    #video_stratocaster {
+        position: relative;
+        right: 1em;
+        padding-top: 2.15em;
+        list-style-type: none;
+    }
+
+    #video_bm {
+        padding-top: 1em;
+        list-style-type: none;
+    }
+
+    /*Logos de parte superior de la pagina*/
+    .logo img {
+        border: solid white;
+        height: 50px;
+    }
+
+    .logo1 img {
+        height: 70px;
+        position: relative;
+        left: 5em;
+    }
+
+    nav ul {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    nav li {
+        margin-right: 20px;
+    }
+
+    /*Menu de la zona superior derecha de la pagina*/
+    #menu a {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-decoration: none;
+        color: aliceblue;
+        padding-left: 0.5em;
+    }
+
+    #menu a:hover{
+        color: rgb(45, 45, 255);
+    }
